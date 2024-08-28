@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commodity Project</title>
+    <link rel="stylesheet" href="ProjectOfCommodity.css">
+</head>
+<body>
+    <div class="project" id="project">
+        <div class="head">
+            <h1>Commodity Project</h1>
+            <h3>Product Management System</h3>
+            <h4 id="eror"></h4>
+        </div>
+
+        
+        <div class="input">
+            <input type="text" placeholder="Title" id="title"  class="size" required>
+            
+            <div class="size2">
+            <input type="number" onkeyup="getTotal()" placeholder="Price" id="price"  class="size2" required>
+            <input type="number" onkeyup="getTotal()" placeholder="Taxes" id="taxes"  class="size2" required>
+            <input type="number" onkeyup="getTotal()" placeholder="Ads" id="ads"  class="size2" required>
+            <input type="number" onkeyup="getTotal()" placeholder="Discount" id="discount" class="size2" required>
+            <input type="text" placeholder="Total: " id="total" disabled>
+        </div>
+
+            <input type="number" placeholder="Count" id="count" class="size"  required>
+            <input type="text" placeholder="Category" id="category"  class="size" required>
+            <button id="create">Create</button>
+        </div>
+        <div class="output">
+            <div class="searchbox">
+                <input onkeyup="getDateFromSearch(this.value)" type="text" id="search" placeholder="Search" >
+            <div class="btnSearch">
+                <button onclick="checkMode(this.id)" id="searchTitle">Search By Title</button>
+                <button onclick="checkMode(this.id)" id="searchcategory">Search By Category</button>
+            </div>
+        </div>
+
+
+
+
+            <div class="deletall">
+                <button id="deleteobj">Delete All</button>
+            </div>
+
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Taxes</th>
+                    <th>ADS</th>
+                    <th>Discount</th>
+                    <th>Total</th>
+                    <th>Category</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="ProjectOfCommodity..js"></script>
+</body>
+</html>
