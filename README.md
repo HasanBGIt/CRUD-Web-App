@@ -1,4 +1,4 @@
-# 📦 Product Management Web App
+# Product Management Web App
 
 ---
 
