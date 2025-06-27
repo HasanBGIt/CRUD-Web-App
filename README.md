@@ -1,24 +1,9 @@
-# 📦 Commodity Management Web App
-
-A simple yet effective product management system built with vanilla JavaScript. Users can add, update, delete, and search for products. It also dynamically calculates total prices and uses browser localStorage for data persistence.
+# 📦 Product Management Web App
 
 ---
 
-## ✨ Features
+## Tech
 
-- 🧾 Create new products with price, taxes, ads, and discount
-- 💰 Auto-calculate the total price dynamically
-- 🔍 Search by **Title** or **Category**
-- 🔁 Update or delete individual items
-- 🧹 Clear all records in one click
-- 💾 Uses localStorage (data persists even after reload)
-- 📱 Fully responsive layout
-
----
-
-## 🚀 How to Run Locally
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/commodity-project.git
+- HTML
+- Javascripts
+- CSS
